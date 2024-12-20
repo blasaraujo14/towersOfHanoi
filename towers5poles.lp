@@ -1,3 +1,7 @@
+% Authors:
+% Juan Blas Araujo Fernández
+% Marcos Freire Patiño
+
 #program initial.
 
 % number of disks
@@ -17,7 +21,7 @@ h(top(a), 1).
 h(top(P), P) :- pole(P), P!=a.
 
 #program final.
-% biggest disk is on pole e
-:- h(on(N), P), _pole(P), _dim(N), P!=e.
+% biggest disk is on pole c
+:- h(on(N), P), _pole(P), _dim(N), P!=c.
 % no smaller disk than biggest one is on any pole
 :- h(on(N), P), _pole(P), _dim(N'), N<N'.

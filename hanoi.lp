@@ -1,3 +1,7 @@
+% Authors:
+% Juan Blas Araujo Fernández
+% Marcos Freire Patiño
+
 #program initial.
 
 % possible actions

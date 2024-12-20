@@ -1,3 +1,7 @@
+% Authors:
+% Juan Blas Araujo Fernández
+% Marcos Freire Patiño
+
 power(0, 1).
 power(T, P) :- T > 0, T <= N, dim(N), power(T - 1, P1), P = P1 * 2.
 
